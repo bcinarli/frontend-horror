@@ -1,7 +1,5 @@
-## Button/Links
-
-These samples are a collection of button or anchor element's bad practices which were _really_ implemented in production.
-
+## Buttons/Links
+These samples are a collection of button and/or anchor elements' bad practices which were _really_ implemented in production as some point!
 
 ### Save Button
 There was a button block which consist of 6 different HTML elements. I think, the developer tried to build a cross-browser "rounded" shape button with different `div` elements. However, this rounded shape can also achieved with `:before` and `:after` pseudo elements.
@@ -19,7 +17,7 @@ There was a button block which consist of 6 different HTML elements. I think, th
 </div>
 ```
 
-#### How should be?
+#### How it should be?
 ```html
 <a href="/save" class="link-button save-button">Save</a>
 ```
