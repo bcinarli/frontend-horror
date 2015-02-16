@@ -45,7 +45,7 @@ CSS preprocessor and nesting mostly helpful, but sometimes, you get an overkill 
 ```
 
 #### How it should be?
-```SCSS
+```CSS
 .front-slider-content {
 	width: 960px;
 }
@@ -73,6 +73,6 @@ CSS preprocessor and nesting mostly helpful, but sometimes, you get an overkill 
     font-size: 20px;
 }
 ```
-Instead of nesting elements in SCSS/Less, adding classes according to their identification, you get only one selector for each element. 
+Instead of nesting elements in Sass/Less, adding classes according to their identification, you get only one selector for each element. 
 
 Also, for this example, different approaches in the HTML part could also help to simplify CSS definitions
