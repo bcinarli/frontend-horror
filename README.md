@@ -12,7 +12,7 @@ I'm not blaming anyone with bad coding. Every developer have some explanation of
 
 ## JavaScript Samples
 * [Redundancy](js/redundancy.md)
-
+* [Selectors](js/selectors.md)
 
 ## Contributions
 Any contributions you make to this effort are of course greatly appreciated.
