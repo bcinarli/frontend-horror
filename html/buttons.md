@@ -2,7 +2,7 @@
 These samples are a collection of button and/or anchor elements' bad practices which were _really_ implemented in production as some point!
 
 ### Save Button
-There was a button block which consist of 6 different HTML elements. I think, the developer tried to build a cross-browser "rounded" shape button with different `div` elements. However, this rounded shape can also achieved with `:before` and `:after` pseudo elements.
+There was a button block which consist of 6 different HTML elements. Probably, the developer tried to build a cross-browser "rounded" shape button with different `div` elements. However, this rounded shape can also achieved with `:before` and `:after` pseudo elements.
 
 #### How it was?
 ```html
