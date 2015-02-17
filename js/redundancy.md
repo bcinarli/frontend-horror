@@ -39,13 +39,22 @@ if (pageLink.indexOf("kredi-notu") != "-1") {
 ```
 
 #### How it should be?
+
 ```javascript
 // according to website, URLs end with '/'
 var url = location.href.split('/'),
 	slug = url[url.length-2];
-    
-// did not check the system, they could use ajax for page loading
-// better removing active class just in case.
-$(".leftMenu").find('li').removeClass('active').filter("#" + slug).addClass('active');
+
+/* Did not check the system, they could use ajax for page loading.
+   Better removing active class just in case.
+   Also in batch-removeClass situations like this, consider removing
+   className only from the elements that have that className.
+   Use .find('li.active') instead of .find('li')
+*/
+$(".leftMenu").find('li.active')
+    .removeClass('active')
+    .filter("#" + slug)
+    .addClass('active');
 ```
+
 In the first case, for each new menu item, you have to add an `else` block. Also come on, why you should repeating these much code, please please please, __be smart while coding__...
