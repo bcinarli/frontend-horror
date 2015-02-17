@@ -1,7 +1,12 @@
 # Front-end Horror
-In daily coding, we come across some code block which are very bad, or blew our mind. I tried to collect some of these codes. Feel free to contribute or share your findings.
 
-I'm not blaming anyone with bad coding. Every developer have some explanation of bad code, tight-schedule, lack-of-experience, irrelevant analysis etc. But at some point every developer should ask themselves, "Can I write this code block any better?"
+In day-to-day coding activities we come across certain blobs of code nonsense that are so bad that our minds fall off. This repository collects some of those code pieces. 
+
+Feel free to contribute and share your findings.
+
+We are not blaming anyone for bad coding: Every developer has some explanation to their bad code; namely: tight schedules, lack of experience, irrelevant analysis of information, etc. At some point, however, every developer should ask themselves: 
+
+> “Can I write this $#!% any better?!“
 
 ## HTML Samples
 * [Buttons & Links](html/buttons.md)
@@ -14,7 +19,8 @@ I'm not blaming anyone with bad coding. Every developer have some explanation of
 * [Redundancy](js/redundancy.md)
 * [Selectors](js/selectors.md)
 
-## Contributions
-Any contributions you make to this effort are of course greatly appreciated.
+## Contributing
 
-However, in the code sample, do not blame anyone or do not link the original code. Also make sure to add a solution of the wrong/bad code. This is not a wall of shame, but I place to learn from mistakes.
+Any contributions you make to this effort are greatly appreciated; however, in the code samples, please do not blame anyone and do not link the original code. Also make sure to add a solution to the wrong/bad code. 
+
+This is **not** a wall of shame; it is a collective effort to help us learn from our mistakes.
