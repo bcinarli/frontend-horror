@@ -46,6 +46,6 @@ var url = location.href.split('/'),
     
 // did not check the system, they could use ajax for page loading
 // better removing active class just in case.
-$(".leftMenu").find('li').removeClass('active').filter("#" + slug).addClass('active');
+$(".leftMenu").find('.active').removeClass('active').end().find("#" + slug).addClass('active');
 ```
 In the first case, for each new menu item, you have to add an `else` block. Also come on, why you should repeating these much code, please please please, __be smart while coding__...
