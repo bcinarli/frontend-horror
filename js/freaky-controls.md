@@ -1,8 +1,8 @@
 ## Freaky Controls
-These samples are a collection of interestingly wrong-way implemented controls which were really used in production as some point!
+These samples are a collection of extremely wrong-way implemented controls which were really used in production as some point!
 
-### If `false` then `true`!
-The case was, allowing only numeric values in an input. The implementation checks the value but returns false if the value is numeric (O.o)
+### If it is `false` then it is `true`!
+The case was, allowing only numeric values in an input. The function checks the value, then returns __false__ _if the value is numeric_ (O.o)
 
 #### How it was?
 ```javascript
