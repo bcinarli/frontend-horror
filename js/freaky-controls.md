@@ -15,7 +15,7 @@ function isNumeric(num){
     }
 }
 
-$(".numeric").on('keydown', function(e){
+$(".numeric").keypress(function(e){
     if(!isNumeric(e.keyCode)){
         return true;
     }
