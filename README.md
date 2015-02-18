@@ -18,6 +18,7 @@ We are not blaming anyone for bad coding: Every developer has some explanation t
 ## JavaScript Samples
 * [Redundancy](js/redundancy.md)
 * [Selectors](js/selectors.md)
+* [Freaky Controls](js/freaky-controls.md)
 
 ## Contributing
 
