@@ -1,4 +1,4 @@
-# Front-end Horror
+# Front-End Horror
 
 In day-to-day coding activities we come across certain blobs of code nonsense that are so bad that our minds fall off. This repository collects some of those code pieces. 
 
@@ -6,7 +6,7 @@ Feel free to contribute and share your findings.
 
 We are not blaming anyone for bad coding: Every developer has some explanation to their bad code; namely: tight schedules, lack of experience, irrelevant analysis of information, etc. At some point, however, every developer should ask themselves: 
 
-> “Can I write this $#!% any better?!“
+> “Can I write this $#!% any better?!”
 
 ## HTML Samples
 * [Buttons & Links](html/buttons.md)
