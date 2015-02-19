@@ -43,4 +43,4 @@ $(function(){
 	$(".selectbox").selectbox();
 });
 ```
-In older browser for ID selector, jQuery uses the native `document.getElementById` method, and a regex for class selector. However, in this case, by selecting elements with class will be faster since with the similar class selector, you get the collection at once, not one by one.
+In older browsers for ID selector, jQuery uses the native `document.getElementById` method, and a regex for class selector. However, in this case, by selecting elements with class will be faster since with class selector, you get the collection at once, not one by one.

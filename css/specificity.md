@@ -41,7 +41,7 @@ CSS preprocessor and nesting mostly helpful, but sometimes, you get an overkill 
 // .front .slider-content .column
 // .front .slider-content .column figure
 // .front .slider-content .column figure figcaption
-// .front .slider-content .column figure figcaption h1 { wft (X.X) }
+// .front .slider-content .column figure figcaption h1 { wtf (X.X) }
 ```
 
 #### How it should be?
