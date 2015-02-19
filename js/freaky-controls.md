@@ -6,22 +6,17 @@ The case was, allowing only numeric values in an input. The function checks the 
 
 #### How it was?
 ```javascript
-function isNumeric(num){    
-    if(num >= 48 && num <= 57) {
+function OnlyNumericForText(obj, e) {
+    var k;
+    k = (e.which) ? e.which : e.keyCode;
+    if (k >= 48 && k <= 57)
         return false;
-    }
-    else {
+    else
         return true;
-    }
 }
 
-$(".numeric").keypress(function(e){
-    if(!isNumeric(e.keyCode)){
-        return true;
-    }
-    else {
-        return false;
-    }
+$(".numeric").on('keypress', function (event) {
+	return !OnlyNumericForText(this, event);
 });
 ```
 
