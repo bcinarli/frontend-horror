@@ -1,4 +1,4 @@
-## Specificity
+# Specificity
 These samples are a collection of CSS specifity bad practices which were really implemented in production at some point!
 
 ## Building a Train
