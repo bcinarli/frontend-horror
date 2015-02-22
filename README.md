@@ -14,6 +14,7 @@ We are not blaming anyone for bad coding: Every developer has some explanation t
 
 ## CSS Samples
 * [Specificity](css/specificity.md)
+* [Extreme Grouping](css/extreme-grouping.md)
 
 ## JavaScript Samples
 * [Redundancy](js/redundancy.md)
