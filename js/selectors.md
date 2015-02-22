@@ -4,7 +4,7 @@ These samples are a collection of selector mistakes which were really implemente
 ## They Say `ID` Selector has the best performance
 The case was in a list of select items that SelectBox plugin applied. Developer obviously thought, selecting jQuery element with `id` selector will have better performance, according to articles in various places.
 
-#### How was it?
+### How was it?
 ```javascript
 $(function(){
 	$("#combobox1").selectbox();
@@ -37,7 +37,7 @@ $(function(){
 });
 ```
 
-#### How could it be, plausible better solution(s)? 
+### How could it be, plausible better solution(s)? 
 ```javascript
 $(function(){
 	$(".selectbox").selectbox();

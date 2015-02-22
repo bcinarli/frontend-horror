@@ -1,10 +1,10 @@
 ## Specificity
 These samples are a collection of CSS specifity bad practices which were really implemented in production at some point!
 
-### Building a Train
+## Building a Train
 CSS preprocessor and nesting mostly helpful, but sometimes, you get an overkill :/
 
-#### How was it?
+### How was it?
 ```SCSS
 .front {    
 	.slider-content {
@@ -44,7 +44,7 @@ CSS preprocessor and nesting mostly helpful, but sometimes, you get an overkill 
 // .front .slider-content .column figure figcaption h1 { wtf (X.X) }
 ```
 
-#### How could it be, plausible better solution(s)? 
+### How could it be, plausible better solution(s)? 
 ```CSS
 .front-slider-content {
 	width: 960px;

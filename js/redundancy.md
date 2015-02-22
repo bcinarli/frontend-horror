@@ -1,11 +1,11 @@
-## Redundancy
+# Redundancy
 These samples are a collection of redundant or irrelevant code repetations which were really implemented in production as some point!
 
-### Check them All!
+## Check them All!
 The case was highlighting the current menu according to matched URL. The developer was very patient while coding, cause, every case were checked separately!
 
 
-#### How was it?
+### How was it?
 ```javascript
 // [left menu item selected]
 var pageLink = location.href;
@@ -38,7 +38,7 @@ if (pageLink.indexOf("kredi-notu") != "-1") {
 }
 ```
 
-#### How could it be, plausible better solution(s)? 
+### How could it be, plausible better solution(s)? 
 ```javascript
 // according to website, URLs end with '/'
 var url = location.href.split('/'),
