@@ -1,5 +1,5 @@
 ## Specificity
-These samples are a collection of CSS specifity bad practices which were really implemented in production as some point!
+These samples are a collection of CSS specifity bad practices which were really implemented in production at some point!
 
 ### Building a Train
 CSS preprocessor and nesting mostly helpful, but sometimes, you get an overkill :/
