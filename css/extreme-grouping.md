@@ -100,12 +100,12 @@ This was not very clear if it was a Sass/Less output or written by hand. But eit
     color: #373737;
 }
 
-.cover-2 i,
-.cover-2 b {
+.cover-2 button i,
+.cover-2 button b {
 	vertical-align: middle;
 }
 
-.cover-2 i {
+.cover-2 button i {
 	margin-right: 10px;
     margin-bottom: 2px;
 }
