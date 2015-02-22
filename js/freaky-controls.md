@@ -4,7 +4,7 @@ These samples are a collection of extremely wrong-way implemented controls which
 ### If it is `false` then it is `true`!
 The case was, allowing only numeric values in an input. The function checks the value, then returns __false__ _if the value is numeric_ (O.o)
 
-#### How it was?
+#### How was it?
 ```javascript
 function OnlyNumericForText(obj, e) {
     var k;
@@ -20,7 +20,7 @@ $(".numeric").on('keypress', function (event) {
 });
 ```
 
-#### How it should be?
+#### How could it be, plausible better solution(s)? 
 ```javascript
 $(".numeric").on('keypress', function(e){
 	return e.which === 8 || e.which === 0 || (e.which >= 48 && e.which <= 57);

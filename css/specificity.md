@@ -4,7 +4,7 @@ These samples are a collection of CSS specifity bad practices which were really 
 ### Building a Train
 CSS preprocessor and nesting mostly helpful, but sometimes, you get an overkill :/
 
-#### How it was
+#### How was it?
 ```SCSS
 .front {    
 	.slider-content {
@@ -44,7 +44,7 @@ CSS preprocessor and nesting mostly helpful, but sometimes, you get an overkill 
 // .front .slider-content .column figure figcaption h1 { wtf (X.X) }
 ```
 
-#### How it should be?
+#### How could it be, plausible better solution(s)? 
 ```CSS
 .front-slider-content {
 	width: 960px;

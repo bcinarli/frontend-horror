@@ -5,7 +5,7 @@ These samples are a collection of redundant or irrelevant code repetations which
 The case was highlighting the current menu according to matched URL. The developer was very patient while coding, cause, every case were checked separately!
 
 
-#### How it was?
+#### How was it?
 ```javascript
 // [left menu item selected]
 var pageLink = location.href;
@@ -38,7 +38,7 @@ if (pageLink.indexOf("kredi-notu") != "-1") {
 }
 ```
 
-#### How it should be?
+#### How could it be, plausible better solution(s)? 
 ```javascript
 // according to website, URLs end with '/'
 var url = location.href.split('/'),

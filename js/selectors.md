@@ -37,7 +37,7 @@ $(function(){
 });
 ```
 
-#### How it should be?
+#### How could it be, plausible better solution(s)? 
 ```javascript
 $(function(){
 	$(".selectbox").selectbox();
