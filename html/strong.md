@@ -1,4 +1,4 @@
-# Should <strong>, <em> elements be styled?
+# Should \<strong\>, \<em\> elements be styled?
 
 ### How was it?
 ```html
