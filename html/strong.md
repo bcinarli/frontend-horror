@@ -4,7 +4,7 @@
 ```html
 <div class="answer-result">
     <strong class="result is-empty">
-        <span class="detail">Boş Bıraktınız</span>
+        <span class="detail">Some Text</span>
     </strong>
 </div>
 ```
@@ -12,6 +12,6 @@
 ### How could it be? (maybe)
 ```html
 <div class="answer-result result is-empty">
-	<span class="detail"><strong>Boş Bıraktınız</strong></span>
+	<span class="detail"><strong>Some Text</strong></span>
 </div>
 ```
