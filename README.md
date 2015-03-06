@@ -11,7 +11,7 @@ We are not blaming anyone for bad coding: Every developer has some explanation t
 ## HTML Samples
 * [Buttons & Links](html/buttons.md)
 * [Navigations](html/navigations.md)
-* [Pharase Tags](html/phrase-tags.md)
+* [Phrase Tags](html/phrase-tags.md)
 
 ## CSS Samples
 * [Specificity](css/specificity.md)
